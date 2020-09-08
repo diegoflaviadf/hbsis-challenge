@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>hbsis-challenge</artifactId>
+        <groupId>br.com.hbsis</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>HBSIS Java Senior Challenge - Weather Consultant</name>
+    <description>API reponsável por realizar consultas na previsão do tempo</description>
+    <modules>
+        <module>weather-consultant-commons</module>
+        <module>weather-consultant-client</module>
+        <module>weather-consultant-service</module>
+    </modules>
+
+    <artifactId>weather-consultant</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>br.com.hbsis</groupId>
+            <artifactId>hbsis-commons</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>
